@@ -1,2 +1,3 @@
-# sailsdemo
-demonstrating sails 0.12
+# classic
+
+a [Sails](http://sailsjs.org) application
