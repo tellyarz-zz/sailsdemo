@@ -25,7 +25,7 @@ module.exports = {
         try{
             const value = {firstname: req.query.firstname};
             const result = await Person.findOne(value);
-            return res.send(result.getSpouse());
+            return res.send(result);
         }catch(e){
             return res.send({status:'failed', reason:e.message});
         }
