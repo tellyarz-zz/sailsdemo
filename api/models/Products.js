@@ -8,6 +8,10 @@
 module.exports = {
 
   attributes: {
+    categoryId: {
+      type: 'string',
+      required: true
+    },
     name: {
       type: 'string',
       required: true
@@ -15,6 +19,10 @@ module.exports = {
     amount : {
       type: 'float',
       required: true
+    },
+    quantity: {
+      type: 'int',
+      defaultTo: 0
     }
   }
 };
